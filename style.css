@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ad897a;
+}
+
+.container {
+  width: 690px;
+  background: #f4f3f3;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+.wrapper {
+  border: 1px solid #dacfcf;
+  border-radius: 5px;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #dacfcf;
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  resize: none;
+  background: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 1px solid #dacfcf;
+}
+.controls {
+  padding: 12px 15px;
+  list-style: none;
+}
+
+.controls,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls .row.form .icons {
+    border-right: 1px solid #dacfcf;
+    padding-right: 15px;
+}
+
+.controls .row.to .icons {
+    border-left: 1px solid #dacfcf;
+    padding-left: 15px;
+}
+.controls .icon {
+    width: 37%;
+}
+.controls .icons i {
+  width: 25px;
+  font-size: 14px;
+  color: #e8784b;
+  cursor: pointer;
+  margin: 0 10px;
+  justify-content: center;
+}
+
+.controls .row select {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.controls .exchange {
+    color: #e8784b;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #e8784b;
+    border-radius: 5px;
+    color: #2c2a2a;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
